@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="./img/favicon/cv.png" type="image/png" />
+  </head>
+  <body class="bg-[#222831] text-[#DFD0B8] font-serif">
+    <!-- Header Section -->
+
+    <header class="bg-[#222831] sticky top-0 z-10 shadow-2xl">
+      <nav class="flex justify-between px-6 text-lg items-center">
+        <!-- PORTFOLIO icon -->
+
+        <a
+          href="#"
+          class="transition duration-300 hover:scale-105 text-2xl font-bold rounded-lg border-2 border-[#DFD0B8] py-1 pr-2 shadow-xl my-2"
+        >
+          <span class="bg-[#DFD0B8] text-[#222831] py-2 px-2 rounded-lg"
+            >PORT</span
+          ><span class=""> FOLIO</span>
+        </a>
+        <div class="md:flex md:items-center hidden">
+          <!-- Navigation links -->
+
+          <a
+            href="#"
+            class="hover:border-b-2 hover:border-[#DFD0B8] hover:bg-[#5e7b7d] border-b-2 border-[#222831] px-3 pb-5 pt-4 transition duration-500"
+            >Home</a
+          >
+          <a
+            href="#about"
+            class="hover:border-b-2 hover:border-[#DFD0B8] hover:bg-[#5e7b7d] border-b-2 border-[#222831] px-3 pb-5 pt-4 transition duration-500"
+            >About</a
+          >
+          <a
+            href="#skills"
+            class="hover:border-b-2 hover:border-[#DFD0B8] hover:bg-[#5e7b7d] border-b-2 border-[#222831] px-3 pb-5 pt-4 transition duration-500"
+            >Skills</a
+          >
+          <a
+            href="#services"
+            class="hover:border-b-2 hover:border-[#DFD0B8] hover:bg-[#5e7b7d] border-b-2 border-[#222831] px-3 pb-5 pt-4 transition duration-500"
+            >Services</a
+          >
+          <a
+            href="#contact"
+            class="hover:border-b-2 hover:border-[#DFD0B8] hover:bg-[#5e7b7d] border-b-2 border-[#222831] px-3 pb-5 pt-4 transition duration-500"
+            >Contact</a
+          >
+
+          <!-- toggle button for light and dark mode -->
+
+          <label class="inline-flex items-center cursor-pointer px-3 pb-5 pt-4">
+            <input type="checkbox" value="" class="sr-only peer" />
+            <div
+              class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-gray-300 dark:peer-focus:ring-gray-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-gray-600 dark:peer-checked:bg-gray-600"
+            ></div>
+          </label>
+        </div>
+
+        <!-- 3 horizontal line icon for mobiles -->
+
+        <div class="md:hidden">
+          <svg
+            class="w-6 h-6 text-gray-800 dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 17 14"
+          >
+            <path
+              d="M16 2H1a1 1 0 0 1 0-2h15a1 1 0 1 1 0 2Zm0 6H1a1 1 0 0 1 0-2h15a1 1 0 1 1 0 2Zm0 6H1a1 1 0 0 1 0-2h15a1 1 0 0 1 0 2Z"
+            />
+          </svg>
+        </div>
+      </nav>
+    </header>
+
+
+    <!-- Home Section   -->
+
+    <main
+      class="w-full bg-[#9ACBD0] text-[#222831] min-h-screen mx-auto flex justify-center items-center"
+    >
+      <div
+        class="flex justify-center items-center w-full gap-3 flex-col xl:flex-row"
+      >
+        <!-- Proifle Image -->
+
+        <div class="pt-6 px-2">
+          <img
+            src="./img/profile-pic/profile.jpeg"
+            alt=""
+            class="w-96 h-96 border-4 bg-fixed rounded-4xl border-[#DFD0B8] transition duration-500 hover:opacity-65 shadow-lg hover:shadow-2xl"
+          />
+          <!-- social links -->
+
+          <div class="flex justify-center items-center gap-7 mt-10">
+            <a
+              href="https://www.linkedin.com"
+              target="_blank"
+              ><img
+                src="./img/socials/linkedIn.svg"
+                alt=""
+                class="w-16 shadow-xl border-2 p-2 border-black rounded-full transition duration-300 hover:scale-110"
+            /></a>
+            <a href="https://github.com" target="_blank"
+              ><img
+                src="./img/socials/github.svg"
+                alt=""
+                class="w-16 shadow-xl border-2 p-2 border-black rounded-full transition duration-300 hover:scale-110"
+            /></a>
+            <a href="https://x.com" target="_blank"
+              ><img
+                src="./img/socials/twitter.svg"
+                alt=""
+                class="w-16 shadow-xl border-2 p-2 border-black rounded-full transition duration-300 hover:scale-110"
+            /></a>
+            <a href="https://www.facebook.com/" target="_blank"
+              ><img
+                src="./img/socials/facebook.svg"
+                alt=""
+                class="w-16 shadow-xl border-2 p-2 border-black rounded-full transition duration-300 hover:scale-110"
+            /></a>
+          </div>
+        </div>
+        <div class="flex justify-center gap-3 items-center flex-col px-6 py-4">
+          <h1
+            class="text-4xl lg:text-6xl md:text-5xl animate-bounce font-bold text-center"
+          >
+            Hi, I'm Akshat Singh
+          </h1>
+          <p
+            class="text-lg lg:text-2xl md:text-xl text-center font-thin italic"
+          >
+            A passionate web developer crafting beautiful and functional
+            applications.
+          </p>
+
+          <!-- Download resume button -->
+
+          <a
+            href="./resume/Akshat Singh_Resume.pdf"
+            target="_blank"
+            class="transform shadow-2xl hover:scale-105 transition duration-150 my-4 px-5 py-3 bg-[#48A6A7] font-bold text-lg rounded-full border-2 border-[#9ACBD0] hover:border-[#DFD0B8] hover:border-2"
+          >
+            Download Resume
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <!-- About Section -->
+
+    <section
+      id="about"
+      class="min-h-screen pt-32 pb-20 px-6 flex flex-col justify-center items-center gap-6 bg-linear-to-b from-[#9ACBD0] to-[#222831]"
+    >
+      <div
+        class="flex flex-col-reverse xl:flex-row justify-evenly items-center w-full"
+      >
+        <div class="text-center text-lg italic mt-3 flex flex-col gap-3">
+          <h2 class="text-3xl lg:text-5xl md:text-4xl font-bold mb-8">
+            About Me
+          </h2>
+          <p>
+            I'm Akshat Singh, a self-taught full-stack web developer with 2+
+            years of experience building responsive and <br />performance-driven
+            web applications using the MERN stack.
+          </p>
+          <p>
+            From my first project to my role at Infosys, I've been passionate
+            about creating clean, user-friendly interfaces and <br />scalable
+            back-end systems.
+          </p>
+
+          <!-- Readmore button -->
+          <div>
+            <button
+              type="button"
+              class="mt-10 py-2 px-3 border-4 rounded-full shadow-2xl hover:bg-[#48A6A7] transition duration-300 hover:scale-105"
+            >
+              Read More
+            </button>
+          </div>
+        </div>
+        <div class="p-4">
+          <img
+            src="./img/profile-pic/profile.jpeg"
+            alt=""
+            class="h-80 w-80 border-4 hover:scale-110 rounded-4xl shadow-lg hover:shadow-2xl transition duration-200 mt-6"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+
+    <section id="skills" class="min-h-screen">
+      <div
+        class="flex justify-center items-center flex-col w-full min-h-screen"
+      >
+        <h2 class="text-3xl lg:text-5xl md:text-4xl font-bold xl:mb-5">
+          My Skills
+        </h2>
+
+        <!-- progress bar  -->
+
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-16 mx-16 mt-5 gap-y-5 w-[75vw] p-14 rounded-2xl bg-[#48A6A7] transition duration-500 shadow-lg hover:scale-110 hover:shadow-3xl"
+        >
+          <div>
+            <div
+              class="mb-3 text-2xl text-center shadow-2xl font-extrabold italic dark:text-white"
+            >
+              HTML
+            </div>
+            <div
+              class="w-full bg-gray-200 rounded-full h-2.5 transition duration-100 animate-pulse mb-4 dark:bg-gray-700"
+            >
+              <div
+                class="bg-gray-600 h-2.5 rounded-full dark:bg-gray-300"
+                style="width: 90%"
+              ></div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="mb-3 text-2xl text-center shadow-2xl font-extrabold italic text-blue-700 dark:text-blue-500"
+            >
+              CSS
+            </div>
+            <div
+              class="w-full bg-gray-200 rounded-full h-2.5 transition duration-100 animate-pulse mb-4 dark:bg-gray-700"
+            >
+              <div
+                class="bg-blue-600 h-2.5 rounded-full"
+                style="width: 75%"
+              ></div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="mb-3 text-2xl text-center shadow-2xl font-extrabold italic text-neutral-700 dark:text-neutral-500"
+            >
+              JavaScript
+            </div>
+            <div
+              class="w-full bg-gray-200 rounded-full h-2.5 transition duration-100 animate-pulse mb-4 dark:bg-gray-700"
+            >
+              <div
+                class="bg-neutral-600 h-2.5 rounded-full dark:bg-neutral-500"
+                style="width: 80%"
+              ></div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="mb-3 text-2xl text-center shadow-2xl font-extrabold italic text-slate-700 dark:text-slate-500"
+            >
+              Java
+            </div>
+            <div
+              class="w-full bg-gray-200 rounded-full h-2.5 transition duration-100 animate-pulse mb-4 dark:bg-gray-700"
+            >
+              <div
+                class="bg-slate-600 h-2.5 rounded-full dark:bg-slate-500"
+                style="width: 80%"
+              ></div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="mb-3 text-2xl text-center shadow-2xl font-extrabold italic text-yellow-700 dark:text-yellow-500"
+            >
+              React.js
+            </div>
+            <div
+              class="w-full bg-gray-200 rounded-full h-2.5 transition duration-100 animate-pulse mb-4 dark:bg-gray-700"
+            >
+              <div
+                class="bg-yellow-400 h-2.5 rounded-full"
+                style="width: 75%"
+              ></div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="mb-3 text-2xl text-center shadow-2xl font-extrabold italic text-gray-700 dark:text-gray-500"
+            >
+              Next.js
+            </div>
+            <div
+              class="w-full bg-gray-200 rounded-full h-2.5 transition duration-100 animate-pulse mb-4 dark:bg-gray-700"
+            >
+              <div
+                class="bg-gray-400 h-2.5 rounded-full"
+                style="width: 70%"
+              ></div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="mb-3 text-2xl text-center shadow-2xl font-extrabold italic text-indigo-700 dark:text-indigo-500"
+            >
+              Node.js
+            </div>
+            <div
+              class="w-full bg-gray-200 rounded-full h-2.5 transition duration-100 animate-pulse mb-4 dark:bg-gray-700"
+            >
+              <div
+                class="bg-indigo-600 h-2.5 rounded-full dark:bg-indigo-500"
+                style="width: 60%"
+              ></div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="mb-3 text-2xl text-center shadow-2xl font-extrabold italic text-amber-700 dark:text-amber-500"
+            >
+              MongoDB
+            </div>
+            <div
+              class="w-full bg-gray-200 rounded-full h-2.5 transition duration-100 animate-pulse dark:bg-gray-700"
+            >
+              <div
+                class="bg-amber-600 h-2.5 rounded-full dark:bg-amber-500"
+                style="width: 65%"
+              ></div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="mb-3 text-2xl text-center shadow-2xl font-extrabold italic text-purple-700 dark:text-purple-500"
+            >
+              MySQL
+            </div>
+            <div
+              class="w-full bg-gray-200 rounded-full h-2.5 transition duration-100 animate-pulse dark:bg-gray-700"
+            >
+              <div
+                class="bg-purple-600 h-2.5 rounded-full dark:bg-purple-500"
+                style="width: 75%"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certification Section -->
+
+    <section class="py-32 min-h-screen">
+      <div class="flex justify-center items-center flex-col gap-10">
+        <h2 class="text-3xl lg:text-5xl md:text-4xl font-bold">
+          My Certifications
+        </h2>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 m-8 gap-10 text-[#9ACBD0]"
+        >
+          <!-- First Certification card -->
+
+          <div
+            class="bg-[#48A6A7] px-2 py-6 rounded-2xl pb-10 flex flex-col justify-center items-center shadow-lg hover:shadow-2xl transition duration-500 hover:scale-110"
+          >
+            <img
+              src="./img/certification-pics/FullStackDevelopment.jpg"
+              class="w-96 rounded-2xl"
+              alt=""
+            />
+            <h3 class="my-6 font-extrabold text-xl text-center">
+              Full Stack Developer
+            </h3>
+            <button
+              type="button"
+              class="bg-[#9ACBD0] text-[#222831] border-[#DFD0B8] rounded-xl border-2 font-extrabold px-3 py-2 shadow-lg hover:shadow-2xl transition duration-500 hover:scale-110"
+            >
+              <a href="./certification/FullStackDevelopment.pdf" target="_blank"
+                >Download</a
+              >
+            </button>
+          </div>
+          <div
+            class="bg-[#48A6A7] px-2 py-6 rounded-2xl pb-10 flex flex-col justify-center items-center shadow-lg hover:shadow-2xl transition duration-500 hover:scale-110"
+          >
+            <img
+              src="./img/certification-pics/FullStackDevelopment.jpg"
+              class="w-96 rounded-2xl"
+              alt=""
+            />
+            <h3 class="my-6 font-extrabold text-xl text-center text-wrap">
+              Full Stack Developer
+            </h3>
+            <button
+              type="button"
+              class="bg-[#9ACBD0] text-[#222831] border-[#DFD0B8] rounded-xl border-2 font-extrabold px-3 py-2 shadow-lg hover:shadow-2xl transition duration-500 hover:scale-110"
+            >
+              <a href="./certification/FullStackDevelopment.pdf" target="_blank">Download</a>
+            </button>
+          </div>
+          <div
+            class="bg-[#48A6A7] px-2 py-6 rounded-2xl pb-10 flex flex-col justify-center items-center shadow-lg hover:shadow-2xl transition duration-500 hover:scale-110"
+          >
+            <img
+              src="./img/certification-pics/FullStackDevelopment.jpg"
+              class="w-96 rounded-2xl"
+              alt=""
+            />
+            <h3 class="my-6 font-extrabold text-xl text-center">
+              Full Stack Developer
+            </h3>
+            <button
+              type="button"
+              class="bg-[#9ACBD0] text-[#222831] border-[#DFD0B8] rounded-xl border-2 font-extrabold px-3 py-2 shadow-lg hover:shadow-2xl transition duration-500 hover:scale-110"
+            >
+              <a href="./certification/FullStackDevelopment.pdf" target="_blank"
+                >Download</a
+              >
+            </button>
+          </div>
+          <div
+            class="bg-[#48A6A7] px-2 py-6 rounded-2xl pb-10 flex flex-col justify-center items-center shadow-lg hover:shadow-2xl transition duration-500 hover:scale-110 xl:col-start-2"
+          >
+            <img
+              src="./img/certification-pics/FullStackDevelopment.jpg"
+              class="w-96 rounded-2xl"
+              alt=""
+            />
+            <h3 class="my-6 font-extrabold text-xl text-center">
+              Full Stack Developer
+            </h3>
+            <button
+              type="button"
+              class="bg-[#9ACBD0] text-[#222831] border-[#DFD0B8] rounded-xl border-2 font-extrabold px-3 py-2 shadow-lg hover:shadow-2xl transition duration-500 hover:scale-110"
+            >
+              <a href="./certification/FullStackDevelopment.pdf" target="_blank">Download</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Section -->
+
+    <section
+      id="services"
+      class="bg-linear-to-b from-[#222831] to-[#48A6A7] py-24"
+    >
+      <div class="flex flex-col justify-center items-center gap-6">
+        <h2 class="text-3xl lg:text-5xl md:text-4xl font-bold mb-16">
+          My Projects
+        </h2>
+
+        <!-- project cards section  -->
+
+        <div class="mx-6 grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
+          <div
+            class="group shadow-2xl 2xl:w-[30vw] w-[80vw] md:w-[45vw] lg:h-[300px] h-[50vh] lg:w-[40vw] xl:w-[30vw] mx-auto [perspective:1000px]"
+          >
+            <div
+              class="relative w-full h-full text-center transition-transform duration-700 [transform-style:preserve-3d] lg:group-hover:[transform:rotateY(180deg)]"
+            >
+              <!-- Front -->
+              <div
+                class="absolute w-full h-full bg-[#9ACBD0] p-5 rounded-2xl xl:[backface-visibility:hidden] hidden lg:block"
+              >
+                <img
+                  src="./img/projects/amazon.jpg"
+                  alt="Amazon"
+                  class="w-full h-full object-cover rounded-2xl"
+                />
+              </div>
+
+              <!-- Back -->
+              <div
+                class="absolute w-full h-full rounded-2xl p-5 bg-[#9ACBD0] flex flex-col items-center justify-center lg:[transform:rotateY(180deg)] lg:[backface-visibility:hidden] text-[#222831]"
+              >
+                <h3 class="text-lg font-extrabold mb-3">
+                  Amazon
+                </h3>
+                <p class="text-lg italic">
+                  The Amazon website that allows users to shop
+                   online conveniently from their smartphones or tablets. It offers access to Amazon's 
+                   full product catalog, including categories like electronics, clothing, books, and 
+                   groceries.
+                </p>
+                <a
+                  href="https://www.amazon.in/"
+                  target="_blank"
+                  class="italic font-bold text-xl mt-4 hover:text-[#DFD0B8]"
+                  >link</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="group shadow-2xl 2xl:w-[30vw] w-[80vw] md:w-[45vw] lg:h-[300px] h-[50vh] lg:w-[40vw] xl:w-[30vw] mx-auto [perspective:1000px]"
+          >
+            <div
+              class="relative w-full h-full text-center transition-transform duration-700 [transform-style:preserve-3d] lg:group-hover:[transform:rotateY(180deg)]"
+            >
+              <!-- Front -->
+              <div
+                class="absolute w-full h-full bg-[#9ACBD0] p-5 rounded-2xl xl:[backface-visibility:hidden] hidden lg:block"
+              >
+                <img
+                  src="./img/projects/Netflix.jpg"
+                  alt="Netflix"
+                  class="w-full h-full object-cover rounded-2xl"
+                />
+              </div>
+
+              <!-- Back -->
+              <div
+                class="absolute w-full h-full rounded-2xl p-5 bg-[#9ACBD0] flex flex-col items-center justify-center lg:[transform:rotateY(180deg)] lg:[backface-visibility:hidden] text-[#222831]"
+              >
+                <h3 class="text-2xl font-extrabold mb-3 ">
+                  Netflix
+                </h3>
+                <p class="text-lg italic">
+                  Netflix is a subscription-based streaming service that offers a wide variety of TV shows,
+                   movies, documentaries, and original content across genres and languages.
+                </p>
+                <a
+                  href="https://www.netflix.com/in/"
+                  target="_blank"
+                  class="italic font-bold text-xl mt-4 hover:text-[#DFD0B8]"
+                  >link</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="group shadow-2xl 2xl:w-[30vw] w-[80vw] md:w-[45vw] lg:h-[300px] h-[50vh] lg:w-[40vw] xl:w-[30vw] mx-auto [perspective:1000px]"
+          >
+            <div
+              class="relative w-full h-full text-center transition-transform duration-700 [transform-style:preserve-3d] lg:group-hover:[transform:rotateY(180deg)]"
+            >
+              <!-- Front -->
+              <div
+                class="absolute w-full h-full bg-[#9ACBD0] p-5 rounded-2xl xl:[backface-visibility:hidden] hidden lg:block"
+              >
+                <img
+                  src="./img/projects/olx.jpg"
+                  alt="Olx"
+                  class="w-full h-full object-cover rounded-2xl"
+                />
+              </div>
+
+              <!-- Back -->
+              <div
+                class="absolute w-full h-full rounded-2xl p-5 bg-[#9ACBD0] flex flex-col items-center justify-center lg:[transform:rotateY(180deg)] lg:[backface-visibility:hidden] text-[#222831]"
+              >
+                <h3 class="text-2xl font-extrabold mb-3">
+                  OLX
+                </h3>
+                <p class="text-lg italic">
+                  OLX is a global online marketplace that allows people to buy and sell secondhand
+                   goods and services locally. It's commonly used for posting free classified ads 
+                   for items like furniture, electronics, vehicles, property, and jobs.
+                </p>
+                <a
+                  href="https://www.olx.in/"
+                  target="_blank"
+                  class="italic font-bold text-xl mt-4 hover:text-[#DFD0B8]"
+                  >link</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="group shadow-2xl 2xl:w-[30vw] w-[80vw] md:w-[45vw] lg:h-[300px] h-[50vh] lg:w-[40vw] xl:w-[30vw] mx-auto [perspective:1000px]"
+          >
+            <div
+              class="relative w-full h-full text-center transition-transform duration-700 [transform-style:preserve-3d] lg:group-hover:[transform:rotateY(180deg)]"
+            >
+              <!-- Front -->
+              <div
+                class="absolute w-full h-full bg-[#9ACBD0] p-5 rounded-2xl xl:[backface-visibility:hidden] hidden lg:block"
+              >
+                <img
+                  src="./img/projects/rentomojo.jpg"
+                  alt="Rentomojo"
+                  class="w-full h-full object-cover rounded-2xl"
+                />
+              </div>
+
+              <!-- Back -->
+              <div
+                class="absolute w-full h-full rounded-2xl p-5 bg-[#9ACBD0] flex flex-col items-center justify-center lg:[transform:rotateY(180deg)] lg:[backface-visibility:hidden] text-[#222831]"
+              >
+                <h3 class="text-2xl font-extrabold mb-3">
+                  Rentomojo
+                </h3>
+                <p class="text-lg italic">
+                     RentoMojo offers a flexible and affordable alternative to purchasing furniture,
+                     appliances, electronics, and vehicles by providing them on a rental basis.
+                </p>
+                <a
+                  href="https://www.rentomojo.com/"
+                  target="_blank"
+                  class="italic font-bold text-xl mt-4 hover:text-[#DFD0B8]"
+                  >link</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="group shadow-2xl 2xl:w-[30vw] w-[80vw] md:w-[45vw] lg:h-[300px] h-[50vh] lg:w-[40vw] xl:w-[30vw] mx-auto [perspective:1000px]"
+          >
+            <div
+              class="relative w-full h-full text-center transition-transform duration-700 [transform-style:preserve-3d] lg:group-hover:[transform:rotateY(180deg)]"
+            >
+              <!-- Front -->
+              <div
+                class="absolute w-full h-full bg-[#9ACBD0] p-5 rounded-2xl xl:[backface-visibility:hidden] hidden lg:block"
+              >
+                <img
+                  src="./img/projects/Swiggy.jpg"
+                  alt="Swiggy"
+                  class="w-full h-full object-cover rounded-2xl"
+                />
+              </div>
+
+              <!-- Back -->
+              <div
+                class="absolute w-full h-full rounded-2xl p-5 bg-[#9ACBD0] flex flex-col items-center justify-center lg:[transform:rotateY(180deg)] lg:[backface-visibility:hidden] text-[#222831]"
+              >
+                <h3 class="text-lg font-extrabold mb-3">
+                  Swiggy
+                </h3>
+                <p class="text-lg italic">
+                  Swiggy is online food delivery platforms, allowing users to order food, groceries,
+                   and other essentials from local restaurants and stores through its website or mobile app.
+                </p>
+                <a
+                  href="https://www.swiggy.com/"
+                  target="_blank"
+                  class="italic font-bold text-xl mt-4 hover:text-[#DFD0B8]"
+                  >link</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="group shadow-2xl 2xl:w-[30vw] w-[80vw] md:w-[45vw] lg:h-[300px] h-[50vh] lg:w-[40vw] xl:w-[30vw] mx-auto [perspective:1000px]"
+          >
+            <div
+              class="relative w-full h-full text-center transition-transform duration-700 [transform-style:preserve-3d] lg:group-hover:[transform:rotateY(180deg)]"
+            >
+              <!-- Front -->
+              <div
+                class="absolute w-full h-full bg-[#9ACBD0] p-5 rounded-2xl xl:[backface-visibility:hidden] hidden lg:block"
+              >
+                <img
+                  src="./img/projects/Uber.jpg"
+                  alt="Uber"
+                  class="w-full h-full object-cover rounded-2xl"
+                />
+              </div>
+
+              <!-- Back -->
+              <div
+                class="absolute w-full h-full rounded-2xl p-5 bg-[#9ACBD0] flex flex-col items-center justify-center lg:[transform:rotateY(180deg)] lg:[backface-visibility:hidden] text-[#222831]"
+              >
+                <h3 class="text-lg font-extrabold mb-3">
+                  Uber
+                </h3>
+                <p class="text-lg italic">
+                  Uber is a platform that allows users to book transportation through a mobile app,
+                   making urban travel more accessible, efficient, and tech-driven.
+                </p>
+                <a
+                  href="https://www.uber.com/"
+                  target="_blank"
+                  class="italic font-bold text-xl mt-4 hover:text-[#DFD0B8]"
+                  >link</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COntact Us Section -->
+
+    <section id="contact" class="bg-[#48A6A7]">
+      <div class="flex justify-center items-center flex-col py-24 gap-5">
+        <h2 class="text-3xl lg:text-5xl md:text-4xl font-bold">Get In Touch</h2>
+        <div
+          class="flex flex-col justify-center items-center w-[80vw] lg:w-[50vw] mx-auto"
+        >
+          <div
+            class="w-full flex flex-col lg:flex-row justify-center items-center gap-4"
+          >
+            <div class="flex flex-col w-full my-3">
+              <label for="name" class="text-sm ml-1">Name</label>
+              <input
+                type="text"
+                id="name"
+                class="border-2 py-2 w-full outline-none px-3 rounded-lg"
+              />
+            </div>
+            <div class="flex flex-col w-full my-3">
+              <label for="email" class="text-sm ml-1">Email</label>
+              <input
+                type="email"
+                id="email"
+                class="border-2 py-2 w-full outline-none px-3 rounded-lg"
+              />
+            </div>
+          </div>
+          <div class="flex flex-col w-full my-3">
+            <label for="subject" class="text-sm ml-1">Subject</label>
+            <input
+              type="text"
+              id="subject"
+              class="border-2 py-2 w-full outline-none px-3 rounded-lg"
+            />
+          </div>
+          <div class="flex flex-col w-full my-3">
+            <label for="message" class="text-sm ml-1">Message</label>
+            <textarea
+              type="text"
+              id="message"
+              rows="5"
+              class="border-2 py-2 w-full outline-none px-3 rounded-lg"
+            ></textarea>
+          </div>
+          <div class="w-full">
+            <button
+              type="button"
+              class="my-4 text-[#48A6A7] shadow-2xl bg-[#DFD0B8] w-full py-2 rounded-xl border-2 font-extrabold hover:bg-[#00697148] hover:text-[#DFD0B8] transition duration-500"
+            >
+              Send Message
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer class="bg-[#222831] text-[#DFD0B8] shadow-2xl">
+      <div
+        class="text-center text-md relative py-5 shadow-2xl flex justify-center items-center"
+      >
+        <div class="flex">
+          <span>&copy; 2025 My Portfolio.</span
+          ><span class="hidden lg:block"> All rights reserved.</span>
+        </div>
+        <div>
+          <a
+            href="tel:+919369560199"
+            class="bg-[#DFD0B8] hover:bg-[#222831] border-2 text-[#222831] hover:text-[#DFD0B8] px-3 py-2 mx-1 rounded-xl transition duration-500"
+          >
+            Call Me
+          </a>
+          <a
+            href="mailto:akssingh3666@gmail.com"
+            class="bg-[#DFD0B8] hover:bg-[#222831] border-2 text-[#222831] hover:text-[#DFD0B8] px-3 py-2 rounded-xl transition duration-500"
+          >
+            Email Me
+          </a>
+        </div>
+        <a
+          href="#"
+          class="bottom-20 lg:bottom-3 absolute right-3 text-2xl font-extrabold px-2.5 py-2 bg-[#9ACBD0] rounded-full hover:bg-[#aeeff6]"
+          ><svg
+            class="w-6 h-6 text-gray-800 dark:text-[#222831]"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 14 8"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M13 7 7.674 1.3a.91.91 0 0 0-1.348 0L1 7"
+            /></svg
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>
